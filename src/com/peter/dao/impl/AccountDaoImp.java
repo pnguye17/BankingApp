@@ -6,21 +6,23 @@ import com.peter.model.Account;
 public class AccountDaoImp implements AccountDao{
 
 	@Override
-	public Account getAccountById() {
+	public Account getAccountById(Account account) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public int deposit() {
+	public int deposit(Account account) {
 		// TODO Auto-generated method stub
 		return 0;
 	}
 
 	@Override
-	public int withdrawal() {
+	public int withdrawal(Account account) {
 		// TODO Auto-generated method stub
 		return 0;
 	}
+
+
 
 }

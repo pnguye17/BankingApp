@@ -5,14 +5,15 @@ import com.peter.model.User;
 
 public class UserDaoImp implements UserDao{
 
+
+
 	@Override
-	public User createUser() {
-		// TODO Auto-generated method stub
+	public User createUser(User user) {
 		return null;
 	}
 
 	@Override
-	public User getUser() {
+	public User getUser(User user) {
 		// TODO Auto-generated method stub
 		return null;
 	}
